@@ -1,31 +1,36 @@
 body {
   font-family: "Montserrat";
+  text-align: center;
 }
 
 #title {
   background-color: #ff4c68;
 }
 
+}
 .container {
   padding: 3% 15%;
+
+
 }
 
-h1 {
-  font-family: 'Odibee Sans', cursive;
-  font-size: 5px;
-  line-height: 1.5;
+
+
+h1,h2,h3,h4,h5,h6 {
+
+}
+.titleimg {
+  width: 135%;
+  transform: rotate(20deg);
+
+
 }
 
-h2 {
-  font-family: "Montserrat-Bold";
-  font-size: 1.5rem;
-  text-align: center;
-}
+.foot{
+  font-size:15px;
+  margin-top: 10px;
 
-h3 {
-  font-family: 'Montserrat Subrayada', sans-serif;
 }
-
 p {
   font-family: 'Open Sans', sans-serif;
   color: #8f8f8f;
@@ -36,9 +41,9 @@ p {
 }
 
 .navbar-brand {
-  font-family: 'Odibee Sans', cursive;
+  font-family: 'Montserrat', sans-serif;
   font-size: 3rem;
-  font-weight: bolder;
+  margin-top: 10px;
 }
 
 .nav-item {
@@ -62,11 +67,12 @@ p {
 .nav-link {
   font-family: cursive;
   font-size: 1rem;
+  margin-top: 45px;
 }
 
-.h {
-  font-family: 'Odibee Sans', cursive;
-  font-size: 3rem;
+.big-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
   line-height: 1.5;
 }
 
@@ -74,25 +80,25 @@ p {
   margin: 5% 3% 5% 0;
 }
 
-.titleimg {
-  width: 135%;
-  transform: rotate(20deg);
-
-
-}
 
 /*title*/
 /* features*/
 #features {
   padding: 7% 15%;
   background-color: #fff;
+  text-align: center;
+
 
 
 
 }
 
+.features-section{
+  font-family: 'Montserrat Subrayada', sans-serif;
+  font-size: 1.5rem;
+}
+
 .features-box {
-  text-align: center;
   padding: 5%;
 }
 
@@ -107,15 +113,19 @@ p {
 
 /*testimonials*/
 #testimonials {
-  text-align: center;
   background-color: #e7305b;
   padding-top: 2rem;
+  text-align: center;
+
 }
 
-#press {
-  background-color: #e7305b;
-  text-align: center;
-  padding-bottom: 3%;
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 .testimonial-image {
@@ -127,9 +137,41 @@ p {
 .testimonial-text {
   padding-bottom: 2rem;
 }
-
+#press {
+  background-color: #e7305b;
+  padding-bottom: 3%;
+  text-align: center;
+}
 /*testimonials*/
+
 #pricing {
   padding: 25px;
   text-align: center;
+
+}
+
+
+
+
+
+/*CTA*/
+
+#cta{
+  background-color: #ff4c68;
+padding: 7% 15%;
+text-align: center;
+
+
+}
+.tw{
+  margin:20px 10px;
+
+}
+
+/*footer*/
+#footer{
+padding: 7% 15%;
+  background-color: #fff;
+  text-align: center;
+
 }
